@@ -1,0 +1,30 @@
+@import "color_palette";
+//http://www.harvestespresso.com.au/
+
+
+
+
+body {
+    background-image: url(../docs/images/background/lander1.jpg);
+    background-size: cover;
+    width: 100vw;
+    //height: auto;
+    //background-repeat: no-repeat;
+}
+
+#h1_container {
+    color: $textcolor;
+    display: flex;
+    flex-direction  : row;
+    align-items: flex-start;
+}
+
+#social_container {
+    margin: auto;
+    display: block;
+    bottom: 0px;
+    position: fixed;
+}
+
+
+
