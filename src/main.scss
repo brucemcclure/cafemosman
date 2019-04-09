@@ -15,16 +15,28 @@ body {
 #h1_container {
     color: $textcolor;
     display: flex;
-    flex-direction  : row;
+    flex-direction : row;
     align-items: flex-start;
 }
 
 #social_container {
-    margin: auto;
-    display: block;
+    width: 100%;
+    //display: block;
     bottom: 0px;
     position: fixed;
+    right: 25%;
 }
 
 
+@media screen and (min-width:800px) {
 
+#social_container {
+    position:fixed;
+    right: 0px;
+    top: 0px;
+}
+
+}
+
+
+//////////////////////////////////////// Break for Desktop /////////////////////////////////////////////
